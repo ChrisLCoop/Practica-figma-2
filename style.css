@@ -196,13 +196,27 @@ section .content-texto span{
         width: 450px;
     }
     p{
-        width: 400px;
+        width: 700px;
         text-align: center;
         margin: auto;
+        padding-top: 30px;
     }
     .titulo-box{
         text-align: center;
         margin: auto;
+        translate: -60px;  
+    }
+    section .titulo-box h3{
+        font-size: 50px;
+        border: solid 10px purple;
+        padding: 5px;
+        margin: 20px auto;
+    }
+    section .titulo-box .portafolio{
+        translate: -40px;
+    }
+    section .titulo-box .contacto{
+        translate: -25px;
     }
     header{
         display: flex;
@@ -216,6 +230,28 @@ section .content-texto span{
     body{
         width: 900px;
         background-color: aquamarine;
+    }
+    section p{
+        font-size: 25px;
+    }
+    section .titulo-box{
+        border: none;
+    }
+    main section .imagen-box img{
+        width: 600px;
+        height: 300px;
+    }
+    main section .imagen-box .content-box-1 img{
+        width: 600px;
+        height: 300px;
+    }
+    main section .imagen-box .content-box-2 img{
+        width: 600px;
+        height: 300px;
+    }
+    main section .imagen-box .content-box-3 img{
+        width: 600px;
+        height: 300px;
     }
 }
 
@@ -252,6 +288,7 @@ section .content-texto span{
     .titulo-box{
         text-align: center;
         margin: auto;
+        padding-bottom: 40px;
     }
     header{
         display: flex;
@@ -288,5 +325,30 @@ section .content-texto span{
     header:hover{
         height: 230px;
     }
+    main section .imagen-box{
+        margin-bottom: 30px;
+    }
+    main section .imagen-box img{
 
+        width: 400px;
+        height: 200px;
+    }
+    main section .imagen-box .content-box-1 img{
+        width: 400px;
+        height: 200px;
+    }
+    main section .imagen-box .content-box-2 img{
+        width: 400px;
+        height: 200px;
+    }
+    main section .imagen-box .content-box-2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main section .imagen-box .content-box-3 img{
+        width: 400px;
+        height: 200px;
+    }
+    
 }
