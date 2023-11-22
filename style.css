@@ -9,6 +9,7 @@
 
 body{
     width: 1440px;
+    margin: 0 auto;
 }
 
 header{
@@ -167,4 +168,125 @@ section .content-texto span{
 .footer h3 span{
     color: #87119A;
     
+}
+
+@media screen and (max-width:900px) { 
+    .imagen-box{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    .content-box-1{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    .content-box-2{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    .content-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .content-3 .content-box-3 img{
+        height: 450px;
+        width: 450px;
+    }
+    p{
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+    .titulo-box{
+        text-align: center;
+        margin: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    body{
+        width: 900px;
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width:600px) { 
+    .imagen-box{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    .content-box-1{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    .content-box-2{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    .content-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section .content-3 .content-box-3 img{
+        height: 450px;
+        width: 450px;
+    }
+    p{
+        width: 400px;
+        text-align: center;
+        margin: auto;
+    }
+    .titulo-box{
+        text-align: center;
+        margin: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+    body{
+        width: 600px;
+        background-color: aqua;
+    }
+    header nav{
+        margin: 0 auto;
+        translate: 30px;
+    }
+    .lista{
+        display: flex;
+        flex-direction: column;
+        opacity: 0;
+        margin: 0 auto;
+    }
+    .lista li{
+        padding-bottom: 5px;
+    }
+    header{
+        height: 100px;
+    }
+    .lista:hover{
+        opacity: 1;
+    }
+    header:hover{
+        height: 230px;
+    }
+
 }
